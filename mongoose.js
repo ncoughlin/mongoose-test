@@ -46,7 +46,6 @@ var IceCream = mongoose.model('IceCream', iceCreamSchema);
 SAMPLE DATA
 ------------------------------------------*/
 
-// add an ice cream to the DB
 var rockyRoad = new IceCream({
     flavor:  "Rocky Road",
     delicious: false,
